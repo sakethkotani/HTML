@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<body bgcolor="light blue">
+<h1>STUDENT REGISTRATION FORM</h1>
+<form>
+
+    <fieldset>
+        STUDENT NAME:<input type="text" name="student name" placeholder="Enter your name"><BR><BR>
+        Email:<input type="text" name="Email" placeholder="Enter your email"><BR><BR>
+          PASSWORD:<input type="text" name="password" placeholder="Enter your password"><BR><BR>
+            AGE:<input type="text" name="AGE"><BR><BR>  
+Gender:
+<input type="radio" id="male" name="gender" value="Male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female">Female</label>
+<br>
+<fieldset>
+Skills:
+<input type="checkbox" name="skills" value="HTML"> HTML
+<input type="checkbox" name="skills" value="CSS"> CSS
+<input type="checkbox" name="skills" value="JavaScript"> JavaScript
+<br><br>
+Department:<select name="department">
+    <option>Select Department</option>
+    <option>CSE</option>
+    <option>ECE</option>
+    <option>EEE</option>
+    <option>MECH</option>
+    <option>IOT</option>
+    <option>BBA</option>
+    <option>CSM</option>
+</select>
+<br><br>
+Select a Course:<input type="text" name="course"><br><br>
+Date of Birth:<input type="date" name="dob"><br><br>
+Address:<textarea name="address" rows="5" cols="35" placeholder="Enter your address"></textarea>
+<br><br>
+Upload Photo:<input type="file" name="photo" accept="image/*">
+<br><br>
+</fieldset>
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+</form>
+</body>    
+</html>
